@@ -3,7 +3,7 @@ from image2char import tool
 from PIL import Image
 import logging
 
-img_path1 = 'input.jpg'
+img_path1 = 'input1.jpg'
 img_path2 = 'image2char/input2.png'
 
 if __name__ == '__main__':
