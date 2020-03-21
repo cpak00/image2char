@@ -10,7 +10,7 @@ class Processor(object):
         return
 
     def gray(self, rgb):
-        r, g, b = rgb
+        r, g, b = rgb[0:3]
         gray = int(0.2126 * r + 0.7152 * g + 0.0722 * b)
         return gray
 
